@@ -1,5 +1,6 @@
 // export default App;
 import { useState } from "react";
+import "./styles.css"; // Assuming 'styles.css' is located in the same folder as this file
 
 function Square({ value, onSquareClick }) {
   return (
